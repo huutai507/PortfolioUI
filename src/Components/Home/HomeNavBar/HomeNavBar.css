@@ -1,0 +1,20 @@
+.home__header__nav-lists {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 2.7rem;
+  padding-right: 6.2rem;
+}
+
+.link__nav {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 29.38px;
+  text-align: right;
+}
+
+.link__nav:first-child {
+  padding-right: 4rem;
+}
+.link__nav:last-child {
+  padding-left: 4rem;
+}

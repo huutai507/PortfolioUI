@@ -1,0 +1,36 @@
+html {
+  font-size: 62.5%;
+  font-family: "Heebo", sans-serif;
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  position: relative;
+  margin: 0 auto;
+  width: 118.2rem;
+  height: 204.1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.container {
+  width: 87.5rem;
+  margin: 0 auto;
+}
+
+/* Responsive */

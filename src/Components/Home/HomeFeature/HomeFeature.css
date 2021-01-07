@@ -1,0 +1,88 @@
+.home__feature__title {
+  font-weight: 300;
+  font-style: normal;
+  font-size: 2.2rem;
+  line-height: 6rem;
+  margin-top: 1.5rem;
+}
+
+.home__feature__item-img {
+  width: 24.6rem;
+  height: 18rem;
+}
+.feature__img {
+  border-radius: 0.6rem;
+}
+
+.home__feature__item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #e0e0e0;
+  margin-top: 2.2rem;
+  margin-bottom: 2.5rem;
+}
+
+.home__feature__item:last-child {
+  margin-bottom: 8.3rem;
+}
+
+.home__feature__item__info {
+  margin-left: 2.5rem;
+  max-height: 18rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.home__feature__item__info__title {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 4.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.home__feature__item__info--year {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.out--year {
+  position: relative;
+  font-size: 1.8rem;
+  line-height: 6rem;
+  font-weight: 900;
+  margin-right: 3.9rem;
+  color: #fff;
+  z-index: 1;
+  margin-left: 1rem;
+}
+
+.out--year::before {
+  position: absolute;
+  content: "";
+  background-color: #142850;
+  width: 6.2rem;
+  height: 2.5rem;
+  border-radius: 1.6rem;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  z-index: -1;
+}
+
+.brand--name {
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 2.9rem;
+}
+
+.home__feature__item__desc {
+  width: 59.4rem;
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 2.35rem;
+  padding-right: 5.8rem;
+}
